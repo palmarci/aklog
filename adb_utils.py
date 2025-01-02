@@ -7,7 +7,7 @@ see : https://www.cnblogs.com/liuzhipenglove/p/7063808.html
 """
 import os
 import subprocess
-
+import shutil
 import comm_tools
 from comm_tools import is_windows_os, is_exe, cmd_run_iter, is_empty, get_str
 
